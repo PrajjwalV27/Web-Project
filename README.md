@@ -11,3 +11,5 @@
 ![rock](https://github.com/PrajjwalV27/Web-Project/assets/94838404/6ec5897f-bb0c-41b5-ae6f-697e25441dbd)
 
 ## Text to Speech Convertor using HTML, CSS, JavaScript 
+
+![speech](https://github.com/PrajjwalV27/Web-Project/assets/94838404/7922c69b-ee0b-48c3-bd5a-8cf1f526507f)
