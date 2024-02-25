@@ -12,4 +12,5 @@
 
 ## Text to Speech Convertor using HTML, CSS, JavaScript 
 
-![speech](https://github.com/PrajjwalV27/Web-Project/assets/94838404/7922c69b-ee0b-48c3-bd5a-8cf1f526507f)
+![ddddd](https://github.com/PrajjwalV27/Web-Project/assets/94838404/cf8a4444-ce92-478b-848d-3639f523882f)
+
