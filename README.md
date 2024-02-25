@@ -6,11 +6,11 @@
 
 ![image genetor](https://github.com/PrajjwalV27/Web-Project/assets/94838404/dac8db4e-f01a-4347-a90d-c16e8aa9866b)
 
-## RockPaperScissors using HTML, CSS, JavaScript 
+## RockPaperScissors using HTML, CSS and JavaScript 
 
 ![rock](https://github.com/PrajjwalV27/Web-Project/assets/94838404/6ec5897f-bb0c-41b5-ae6f-697e25441dbd)
 
-## Text to Speech Convertor using HTML, CSS, JavaScript 
+## Text to Speech Convertor using HTML, CSS and JavaScript 
 
 ![ddddd](https://github.com/PrajjwalV27/Web-Project/assets/94838404/cf8a4444-ce92-478b-848d-3639f523882f)
 
