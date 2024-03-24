@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form to Email Using JavaScripts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <h2>GET IN TOUCH</h2>
+            <input type="hidden" name="access_key" value="1b3f135e-0052-4e1f-a442-6742d63a48ab">
+            <input type="text" name="name" placeholder="Your Name" class="contact_inputs" required>
+            <input type="email" name="email" placeholder="Email ID" class="contact_inputs" required>
+            <input type="text" name="phone" placeholder="Phone no." class="contact_inputs" required>
+            <textarea name="message" placeholder="How can we help you?" class="contact_inputs" required></textarea>
+            <button type="submit">Submit</button>
+            <button onclick="clearInterval"> clicl</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
