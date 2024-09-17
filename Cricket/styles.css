@@ -1,0 +1,207 @@
+/* General Body Styling */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#undo-btn {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin: 20px 0;
+}
+
+
+/* Folder Container */
+
+#folder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#folder {
+    background: #f5f5f5;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#folder:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.5);
+}
+
+#folder span {
+    font-size: 4em;
+}
+
+#folder p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+
+
+/* Teams List */
+
+#teams-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#teams-list button {
+    background: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#teams-list button:hover {
+    background: #ff4f38;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Team Boxes */
+
+#team-boxes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 20px;
+}
+
+
+/* Line Styling */
+
+
+/* #line {
+    position: absolute;
+    background-color: #ff0000;
+    height: 2px;
+    width: 0;
+    transition: width 0.3s, top 0.3s, left 0.3s;
+} */
+
+
+/* Add this to your existing CSS */
+
+#canvas-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    /* Ensure canvas doesn't block interactions */
+}
+
+#team1-box,
+#team2-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    width: 45%;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#team1-box:hover,
+#team2-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #ff6f61;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    color: #000000;
+}
+
+li:hover {
+    background-color: rgba(255, 111, 97, 0.7);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Result Box */
+
+#result-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    width: 60%;
+    max-width: 800px;
+    text-align: left;
+    backdrop-filter: blur(10px);
+    display: none;
+}
+
+#result-box h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #ff6f61;
+}
+
+#result-list li {
+    background-color: rgba(0, 128, 0, 0.2);
+    border-left: 6px solid #28a745;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: #000000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
